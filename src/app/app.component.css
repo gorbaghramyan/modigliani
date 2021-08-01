@@ -1,0 +1,73 @@
+header {
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding: 0 20px;
+    text-align: center;
+}
+
+select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.colorPicker {
+    cursor: pointer;
+    border-radius: 100%;
+    width: 15px;
+    margin-right: 50px;
+}
+
+main {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.circleContainer {
+    display: inline-grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.ten {
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.fifteen {
+    grid-template-columns: repeat(15, 1fr);
+}
+
+.twenty {
+    grid-template-columns: repeat(20, 1fr);
+}
+.optionsCont {
+    text-align: center;
+}
+.btn-cont {
+    margin: 10px 0;
+}
+
+button {
+    margin: 0 10px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.75;
+}
+
+.save {
+    background-color: #4CAF50;
+}
+
+.reset {
+    background-color: #f44336;
+}
